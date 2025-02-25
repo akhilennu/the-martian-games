@@ -6,7 +6,7 @@ import { Newsletter } from "@/components/Newsletter";
 
 const Index = () => {
   return (
-    <div className="bg-space-950 min-h-screen font-space">
+    <div className="bg-surface-background min-h-screen">
       <HeroSection />
       <Synopsis />
       <AuthorSection />
