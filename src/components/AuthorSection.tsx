@@ -14,8 +14,11 @@ export const AuthorSection = () => {
         >
           <div className="md:w-1/3">
             <div className="w-64 h-64 rounded-full overflow-hidden bg-primary-100 shadow-elevation-2">
-              {/* Author image placeholder */}
-              <div className="w-full h-full bg-gradient-to-br from-primary-200 to-primary-100"></div>
+              <img 
+                src="/lovable-uploads/de69441a-cd47-4965-84a7-c5bd30bf156c.png"
+                alt="Author"
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
           <div className="md:w-2/3 text-center md:text-left">
